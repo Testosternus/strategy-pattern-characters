@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CharacterSimulator.cs" />
+    <Compile Include="Classes\BowAndArrowBehaviour.cs" />
+    <Compile Include="Classes\King.cs" />
+    <Compile Include="Classes\Knight.cs" />
+    <Compile Include="Classes\MaceBehaviour.cs" />
+    <Compile Include="Classes\Queen.cs" />
+    <Compile Include="Classes\SwordBehaviour.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Actor.cs" />
+    <Compile Include="Services\WeaponBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

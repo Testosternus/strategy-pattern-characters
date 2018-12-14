@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Strategy.Character.Csl
+namespace Strategy.Character.Csl.Services
 {
-    class Program
+    public interface WeaponBehaviour
     {
-        static void Main(string[] args)
-        {
-        }
+        void useWeapon();
     }
 }
