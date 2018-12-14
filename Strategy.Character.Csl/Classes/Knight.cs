@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Strategy.Character.Csl.Classes
 {
-    public class Knight : Actor
+    public class Knight : Actor //"Knight IS-A Actor"
     {
         public Knight()
         {

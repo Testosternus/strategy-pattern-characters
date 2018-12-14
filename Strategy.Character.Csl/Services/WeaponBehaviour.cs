@@ -8,6 +8,6 @@ namespace Strategy.Character.Csl.Services
 {
     public interface WeaponBehaviour
     {
-        void useWeapon();
+        void useWeapon(); //all weapon behaviour classes implement these (IS-A relation)
     }
 }

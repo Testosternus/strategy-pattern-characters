@@ -27,7 +27,7 @@ namespace Strategy.Character.Csl
             Actor torygg = new King();
             torygg.display();
             torygg.fight();
-            torygg.setWeapon(new BowAndArrowBehaviour());
+            torygg.setWeapon(new BowAndArrowBehaviour()); //change weapon at runtime
             torygg.fight();
 
             Console.ReadKey();

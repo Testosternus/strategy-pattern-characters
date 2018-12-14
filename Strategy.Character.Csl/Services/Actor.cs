@@ -8,7 +8,7 @@ namespace Strategy.Character.Csl.Services
 {
     public abstract class Actor
     {
-        protected WeaponBehaviour weapon;
+        protected WeaponBehaviour weapon; //refernce vars for behaviour interface type (HAS-A relation == composition)
         
         public void setWeapon(WeaponBehaviour w)
         {
@@ -17,7 +17,7 @@ namespace Strategy.Character.Csl.Services
 
         public abstract void display();
 
-        public void fight()
+        public void fight()//delegate to behaviour class
         {
             weapon.useWeapon();
         }
